@@ -13,7 +13,6 @@ import tn.tunisair.workfow.Entities.User;
 import tn.tunisair.workfow.Repositories.RoleRepository;
 import tn.tunisair.workfow.Repositories.TokenRepository;
 import tn.tunisair.workfow.Repositories.UserRepository;
-import tn.tunisair.workfow.Security.JwtService;
 
 import java.security.SecureRandom;
 import java.time.LocalDateTime;

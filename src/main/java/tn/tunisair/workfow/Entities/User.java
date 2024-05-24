@@ -103,4 +103,11 @@ public class User implements UserDetails, Principal {
         return getFirstname() + " " + getLastname();
     }
 
+
+
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
+    private List<Incident> incidents;
+
+    @OneToMany(mappedBy = "responsable", cascade = CascadeType.ALL)
+    private List<Changement> changements;
 }
